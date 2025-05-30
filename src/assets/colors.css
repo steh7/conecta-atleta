@@ -1,0 +1,140 @@
+:root {
+  --primary-color: #2563eb; /* Azul principal */
+  --primary-hover: #1d4ed8;
+  --secondary-color: #10b981; /* Verde */
+  --accent-color: #f97316; /* Laranja */
+  --accent-hover: #ea580c;
+  --background-light: #f8fafc;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --border-color: #e2e8f0;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  
+  /* Gradientes energéticos */
+  --gradient-blue: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  --gradient-energy: linear-gradient(135deg, #2563eb 0%, #10b981 50%, #f97316 100%);
+  --gradient-orange: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  --gradient-green: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+}
+
+/* Aplicando as novas cores aos elementos existentes */
+.bg-blue-600 {
+  background-color: var(--primary-color);
+}
+
+.bg-blue-700 {
+  background-color: var(--primary-hover);
+}
+
+.text-blue-600 {
+  color: var(--primary-color);
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: var(--primary-hover);
+}
+
+.hover\:text-blue-600:hover {
+  color: var(--primary-color);
+}
+
+.hover\:text-blue-800:hover {
+  color: var(--primary-hover);
+}
+
+/* Novas classes para as cores energéticas */
+.bg-energy-gradient {
+  background: var(--gradient-energy);
+}
+
+.bg-green {
+  background-color: var(--secondary-color);
+}
+
+.bg-orange {
+  background-color: var(--accent-color);
+}
+
+.text-green {
+  color: var(--secondary-color);
+}
+
+.text-orange {
+  color: var(--accent-color);
+}
+
+.hover\:bg-green:hover {
+  background-color: var(--secondary-color);
+}
+
+.hover\:bg-orange:hover {
+  background-color: var(--accent-color);
+}
+
+.hover\:text-green:hover {
+  color: var(--secondary-color);
+}
+
+.hover\:text-orange:hover {
+  color: var(--accent-color);
+}
+
+/* Botões com as novas cores */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-accent {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary:hover {
+  background-color: #0ea271; /* Verde mais escuro */
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-hover);
+}
+
+/* Bordas com as novas cores */
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+.border-secondary {
+  border-color: var(--secondary-color);
+}
+
+.border-accent {
+  border-color: var(--accent-color);
+}
+
+/* Gradientes energéticos para elementos de destaque */
+.bg-gradient-blue {
+  background: var(--gradient-blue);
+}
+
+.bg-gradient-orange {
+  background: var(--gradient-orange);
+}
+
+.bg-gradient-green {
+  background: var(--gradient-green);
+}
+
+.bg-gradient-energy {
+  background: var(--gradient-energy);
+}
